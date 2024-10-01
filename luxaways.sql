@@ -21,7 +21,7 @@ CREATE USER 'estef'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT S
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.6.2" created="2024-10-01 09:22" -->
+	<!-- generator="WordPress/6.6.2" created="2024-10-01 10:12" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -34,7 +34,7 @@ CREATE USER 'estef'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT S
 	<title>LuxAways</title>
 	<link>http://localhost</link>
 	<description></description>
-	<pubDate>Tue, 01 Oct 2024 09:22:28 +0000</pubDate>
+	<pubDate>Tue, 01 Oct 2024 10:12:45 +0000</pubDate>
 	<language>es</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost</wp:base_site_url>
@@ -49,6 +49,13 @@ CREATE USER 'estef'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT S
 		<wp:cat_name><![CDATA[Sin categoría]]></wp:cat_name>
 	</wp:category>
 				<wp:term>
+		<wp:term_id>5</wp:term_id>
+		<wp:term_taxonomy><![CDATA[wp_template_part_area]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[footer]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[footer]]></wp:term_name>
+	</wp:term>
+		<wp:term>
 		<wp:term_id>4</wp:term_id>
 		<wp:term_taxonomy><![CDATA[wp_template_part_area]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[header]]></wp:term_slug>
@@ -324,13 +331,13 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		<dc:creator><![CDATA[estef]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/2024/09/30/wp-global-styles-twentytwentytwo/</guid>
 		<description></description>
-		<content:encoded><![CDATA[{"styles":{"typography":{"fontSize":"var(--wp--preset--font-size--large)","fontFamily":"var(--wp--preset--font-family--system-font)","textTransform":"capitalize"},"elements":{"heading":{"typography":{"fontFamily":"var(--wp--preset--font-family--roboto)","fontStyle":"normal","fontWeight":"200"},"color":{"text":"var:preset|color|background"}},"h1":{"typography":{"fontFamily":"var(--wp--preset--font-family--roboto)","fontSize":"var(--wp--preset--font-size--x-large)","textTransform":"uppercase"}},"link":{"typography":{"textDecoration":"none","fontFamily":"var:preset|font-family|radley","fontSize":"var(--wp--preset--font-size--medium)","fontStyle":"normal","fontWeight":"400","lineHeight":"1.3"},"color":{"text":"var(--wp--preset--color--background)"},":hover":{"color":{"text":"#1c1292"}}},"button":{"color":{"text":"var(--wp--preset--color--foreground)"}},"caption":{"color":{"text":"var(--wp--preset--color--foreground)"}}},"color":{"background":"var:preset|color|background","text":"var:preset|color|vivid-cyan-blue"}},"settings":{"typography":{"fontFamilies":{"theme":[{"fontFamily":"-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif","name":"Fuente del sistema","slug":"system-font"},{"fontFamily":"\"Source Serif Pro\", serif","name":"Source Serif Pro","slug":"source-serif-pro","fontFace":[{"fontFamily":"Source Serif Pro","fontWeight":"200 900","fontStyle":"normal","fontStretch":"normal","src":["file:.\/assets\/fonts\/source-serif-pro\/SourceSerif4Variable-Roman.ttf.woff2"]},{"fontFamily":"Source Serif Pro","fontWeight":"200 900","fontStyle":"italic","fontStretch":"normal","src":["file:.\/assets\/fonts\/source-serif-pro\/SourceSerif4Variable-Italic.ttf.woff2"]}]}],"custom":[{"name":"Roboto","slug":"roboto","fontFamily":"Roboto","fontFace":[{"fontFamily":"Roboto","fontStyle":"normal","fontWeight":"700","src":"http:\/\/localhost\/wp-content\/uploads\/fonts\/Roboto-Bold.ttf"}]},{"name":"Radley","slug":"radley","fontFamily":"Radley","preview":"","fontFace":[{"fontFamily":"Radley","fontStyle":"italic","fontWeight":"400","src":"http:\/\/localhost\/wp-content\/uploads\/fonts\/Radley-Italic.ttf"}]}]}},"color":{"palette":{"custom":[{"color":"#ffffff","name":"Color 1","slug":"custom-color-1"}]}}},"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
+		<content:encoded><![CDATA[{"styles":{"typography":{"fontSize":"var(--wp--preset--font-size--large)","fontFamily":"var(--wp--preset--font-family--system-font)","textTransform":"capitalize"},"elements":{"heading":{"typography":{"fontFamily":"var(--wp--preset--font-family--roboto)","fontStyle":"normal","fontWeight":"200"},"color":{"text":"var:preset|color|background"}},"h1":{"typography":{"fontFamily":"var(--wp--preset--font-family--roboto)","fontSize":"var(--wp--preset--font-size--x-large)","textTransform":"uppercase"}},"link":{"typography":{"textDecoration":"none","fontFamily":"var:preset|font-family|radley","fontSize":"var(--wp--preset--font-size--medium)","fontStyle":"normal","fontWeight":"400","lineHeight":"1.3"},"color":{"text":"var(--wp--preset--color--background)"},":hover":{"color":{"text":"#1c1292"}}},"button":{"color":{"text":"var(--wp--preset--color--foreground)"}},"caption":{"color":{"text":"var(--wp--preset--color--foreground)"}}},"color":{"background":"var:preset|color|background","text":"var:preset|color|vivid-cyan-blue"}},"settings":{"typography":{"fontFamilies":{"theme":[{"fontFamily":"-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif","name":"Fuente del sistema","slug":"system-font"},{"fontFamily":"\"Source Serif Pro\", serif","name":"Source Serif Pro","slug":"source-serif-pro","fontFace":[{"fontFamily":"Source Serif Pro","fontWeight":"200 900","fontStyle":"normal","fontStretch":"normal","src":["file:.\/assets\/fonts\/source-serif-pro\/SourceSerif4Variable-Roman.ttf.woff2"]},{"fontFamily":"Source Serif Pro","fontWeight":"200 900","fontStyle":"italic","fontStretch":"normal","src":["file:.\/assets\/fonts\/source-serif-pro\/SourceSerif4Variable-Italic.ttf.woff2"]}]}],"custom":[{"name":"Roboto","slug":"roboto","fontFamily":"Roboto","fontFace":[{"fontFamily":"Roboto","fontStyle":"normal","fontWeight":"700","src":"http:\/\/localhost\/wp-content\/uploads\/fonts\/Roboto-Bold.ttf"}]},{"name":"Radley","slug":"radley","fontFamily":"Radley","fontFace":[{"fontFamily":"Radley","fontStyle":"italic","fontWeight":"400","src":"http:\/\/localhost\/wp-content\/uploads\/fonts\/Radley-Italic.ttf"}]}]}},"color":{"palette":{"custom":[{"color":"#ffffff","name":"Color 1","slug":"custom-color-1"}],"theme":[{"slug":"foreground","color":"#150953","name":"Primer plano"},{"slug":"background","color":"#ffffff","name":"Fondo"},{"slug":"primary","color":"#1a4548","name":"Principal"},{"slug":"secondary","color":"#ffe2c7","name":"Secundario"},{"slug":"tertiary","color":"#F6F6F6","name":"Terciario"}]}}},"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2024-09-30 19:43:33]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-09-30 17:43:33]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-09-30 21:23:46]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-09-30 19:23:46]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-10-01 12:09:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-10-01 10:09:28]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-twentytwentytwo]]></wp:post_name>
@@ -504,13 +511,31 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 <!-- /wp:query-pagination --></main>
 <!-- /wp:query -->
 
-<!-- wp:template-part {"slug":"footer","theme":"twentytwentytwo","tagName":"footer"} /-->]]></content:encoded>
+<!-- wp:template-part {"slug":"footer","theme":"twentytwentytwo","tagName":"footer"} /-->
+
+<!-- wp:group {"metadata":{"categories":["footer"],"patternName":"twentytwentytwo/footer-title-tagline-social","name":"Pie de página con título, descripción corta y enlaces sociales en un fondo oscuro"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:site-title {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}},"typography":{"textTransform":"uppercase"}}} /-->
+
+<!-- wp:site-tagline {"style":{"spacing":{"margin":{"top":"0.25em","bottom":"0px"}},"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:social-links {"iconBackgroundColor":"foreground","iconBackgroundColorValue":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dforeground)","layout":{"type":"flex","justifyContent":"right"}} -->
+<ul class="wp-block-social-links has-icon-background-color"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[Muestra las entradas más recientes, así como la página de inicio del sitio o una página personalizada definida en los ajustes de lectura. Si existe, la plantilla de página de inicio sobreescribirá a esta plantilla cuando se muestren las entradas en dicha página de inicio.]]></excerpt:encoded>
 		<wp:post_id>15</wp:post_id>
 		<wp:post_date><![CDATA[2024-09-30 20:07:54]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-09-30 18:07:54]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-09-30 20:07:56]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-09-30 18:07:56]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-10-01 12:09:30]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-10-01 10:09:30]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home]]></wp:post_name>
@@ -734,6 +759,48 @@ Los avatares de los comentaristas provienen de <a href="https://es.gravatar.com/
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1920;s:6:"height";i:948;s:4:"file";s:15:"2024/09/5-1.png";s:8:"filesize";i:3767793;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
+					<item>
+		<title><![CDATA[L]]></title>
+		<link>http://localhost/2024/10/01/l/</link>
+		<pubDate>Tue, 01 Oct 2024 09:40:31 +0000</pubDate>
+		<dc:creator><![CDATA[estef]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/2024/10/01/l/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"categories":["footer"],"patternName":"twentytwentytwo/footer-title-tagline-social","name":"Pie de página con título, descripción corta y enlaces sociales en un fondo oscuro"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:site-title {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}},"typography":{"textTransform":"uppercase"}}} /-->
+
+<!-- wp:site-tagline {"style":{"spacing":{"margin":{"top":"0.25em","bottom":"0px"}},"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:social-links {"iconBackgroundColor":"foreground","iconBackgroundColorValue":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dforeground)","layout":{"type":"flex","justifyContent":"right"}} -->
+<ul class="wp-block-social-links has-icon-background-color"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date><![CDATA[2024-10-01 11:40:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-10-01 09:40:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-10-01 11:40:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-10-01 09:40:31]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[l]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
+		<category domain="wp_theme" nicename="twentytwentytwo"><![CDATA[twentytwentytwo]]></category>
+						</item>
 				</channel>
 </rss>
 	
