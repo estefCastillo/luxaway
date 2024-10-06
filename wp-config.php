@@ -23,7 +23,7 @@
 define( 'DB_NAME', 'luxaways' );
 
 /** Database username */
-define( 'DB_USER', 'estef' );
+define( 'DB_USER', 'admin' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'abc123.' );
