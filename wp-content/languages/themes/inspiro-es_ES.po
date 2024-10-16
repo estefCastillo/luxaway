@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Inspiro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-07 06:05:31+0000\n"
+"PO-Revision-Date: 2024-10-16 15:34:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -124,49 +124,45 @@ msgstr "Demos de Inspiro PRO (11)"
 msgid "Inspiro Premium Demos (16)"
 msgstr "Demos de Inspiro Premium (16)"
 
-#: inc/admin/pages/demo.php:120
-msgid "Please install the One Click Demo Import plugin to use this feature. You can do that from the Recommended Plugins page."
-msgstr "Instala el plugin One Click Demo Import para utilizar esta función. Puedes hacerlo desde la página Plugins recomendados."
-
-#: inc/admin/pages/demo.php:102
+#: inc/admin/pages/demo.php:100
 msgid "Elementor Demo"
 msgstr "Demos de Elementor"
 
-#: inc/admin/pages/demo.php:91 inc/admin/pages/demo.php:104
+#: inc/admin/pages/demo.php:89 inc/admin/pages/demo.php:102
 #: inc/classes/class-inspiro-custom-wp-admin-menu.php:176
 #: inc/classes/class-inspiro-custom-wp-admin-menu.php:177
 msgid "Import Demo"
 msgstr "Importar demo"
 
-#: inc/admin/pages/demo.php:89
+#: inc/admin/pages/demo.php:87
 msgid "Block Editor Demo"
 msgstr "Demo para el Editor de bloques"
 
-#: inc/admin/pages/demo.php:87 inc/admin/pages/demo.php:100
+#: inc/admin/pages/demo.php:85 inc/admin/pages/demo.php:98
 msgid "View Demo"
 msgstr "Ver demo"
 
-#: inc/admin/pages/demo.php:48 inc/admin/pages/demo.php:67
+#: inc/admin/pages/demo.php:46 inc/admin/pages/demo.php:65
 msgid "Demo Importer"
 msgstr "Importador de demos"
 
-#: inc/admin/pages/admin.php:531
-msgid "https://www.wpzoom.com/inspiro-pro/starter-sites/"
-msgstr "https://www.wpzoom.com/inspiro-pro/starter-sites/"
+#: inc/admin/pages/admin.php:511
+msgid "https://www.wpzoom.com/themes/inspiro-pro/starter-sites/"
+msgstr "https://www.wpzoom.com/themes/inspiro-pro/starter-sites/"
 
-#: inc/admin/pages/admin.php:526
-msgid "https://www.wpzoom.com/inspiro/starter-sites/"
-msgstr "https://www.wpzoom.com/inspiro/starter-sites/"
+#: inc/admin/pages/admin.php:506
+msgid "https://www.wpzoom.com/themes/inspiro/starter-sites/"
+msgstr "https://www.wpzoom.com/themes/inspiro/starter-sites/"
 
 #: inc/admin/pages/demos.php:557
 msgid "https://www.wpzoom.com/themes/inspiro-pro/?utm_source=wpadmin&utm_medium=about-inspiro-page&utm_campaign=upgrade-pro"
 msgstr "https://www.wpzoom.com/themes/inspiro-pro/?utm_source=wpadmin&utm_medium=about-inspiro-page&utm_campaign=upgrade-pro"
 
-#: inc/admin/pages/admin.php:638
+#: inc/admin/pages/admin.php:618
 msgid "https://www.wpzoom.com/themes/inspiro/?utm_source=wpadmin&utm_medium=about-inspiro-page&utm_campaign=upgrade-table"
 msgstr "https://www.wpzoom.com/themes/inspiro/?utm_source=wpadmin&utm_medium=about-inspiro-page&utm_campaign=upgrade-table"
 
-#: inc/admin/pages/admin.php:85 inc/admin/pages/admin.php:432
+#: inc/admin/pages/admin.php:85 inc/admin/pages/admin.php:412
 #: inc/admin/pages/demos.php:321
 msgid "https://www.wpzoom.com/themes/inspiro/?utm_source=wpadmin&utm_medium=about-inspiro-page&utm_campaign=upgrade-premium"
 msgstr "https://www.wpzoom.com/themes/inspiro/?utm_source=wpadmin&utm_medium=about-inspiro-page&utm_campaign=upgrade-premium"
@@ -389,7 +385,7 @@ msgstr "Entradas del blog"
 msgid "Previous"
 msgstr "Anterior"
 
-#: inc/admin/pages/admin.php:426
+#: inc/admin/pages/admin.php:406
 msgid "Slideshow with YouTube & Vimeo Integration "
 msgstr "Presentación de diapositivas con integración de YouTube y Vimeo "
 
@@ -506,11 +502,11 @@ msgstr "Sobre #2"
 msgid "Inspiro Pages"
 msgstr "Páginas de Inspiro"
 
-#: inc/admin/pages/admin.php:479
+#: inc/admin/pages/admin.php:459
 msgid "The Premium version of the theme includes unique WooCommerce features and additional options to customize the shop pages as you want."
 msgstr "La versión Premium del tema incluye funciones exclusivas de WooCommerce y opciones adicionales para personalizar las páginas de la tienda como quieras."
 
-#: inc/admin/pages/admin.php:476
+#: inc/admin/pages/admin.php:456
 msgid "WooCommerce Features"
 msgstr "Funciones de WooCommerce"
 
@@ -591,168 +587,159 @@ msgstr "Inspiro PRO es una versión más reciente del tema Inspiro, que puede ad
 msgid "Below you can view demos available in the Inspiro Premium theme. You can get access to all of them by purchasing the Premium version of the theme."
 msgstr "A continuación puedes ver las demos disponibles en el tema Inspiro Premium. Puedes acceder a todas ellas comprando la versión Premium del tema."
 
-#: inc/admin/pages/admin.php:787
+#: inc/admin/pages/admin.php:767
 msgid "Get Inspiro Premium Today!"
 msgstr "Obtener Inspiro Premium"
 
-#: inc/admin/pages/admin.php:779
+#: inc/admin/pages/admin.php:759
 msgid "Fast Email Support"
 msgstr "Soporte rápido por correo electrónico"
 
-#: inc/admin/pages/admin.php:766
+#: inc/admin/pages/admin.php:746
 msgid "Google Fonts (Hosted Locally)"
 msgstr "Fuentes de Google (alojadas localmente)"
 
-#: inc/admin/pages/admin.php:755
+#: inc/admin/pages/admin.php:735
 msgid "Multiple Blog & Posts Layouts"
 msgstr "Múltiples disposiciones de blog y entradas"
 
-#: inc/admin/pages/admin.php:736
+#: inc/admin/pages/admin.php:716
 msgid "Video Background on Hover"
 msgstr "Fondo de video al pasar por encima"
 
-#: inc/admin/pages/admin.php:714
+#: inc/admin/pages/admin.php:694
 msgid "Portfolio with Video Integration"
 msgstr "Porfolio con integración de video"
 
-#: inc/admin/pages/admin.php:708
+#: inc/admin/pages/admin.php:688
 msgid "Starter Sites"
 msgstr "Sitios de inicio"
 
-#: inc/admin/pages/admin.php:696
+#: inc/admin/pages/admin.php:676
 msgid "Custom Elementor Widgets"
 msgstr "Widgets de Elementor personalizados"
 
-#: inc/admin/pages/admin.php:651
+#: inc/admin/pages/admin.php:631
 msgid "Below is a comparison chart of the free and the premium versions."
 msgstr "A continuación se muestra una tabla comparativa de las versiones gratuita y premium."
 
-#: inc/admin/pages/admin.php:640 inc/admin/pages/demos.php:323
+#: inc/admin/pages/admin.php:620 inc/admin/pages/demos.php:323
 msgid "Get Inspiro Premium Today &rarr;"
 msgstr "Consigue Inspiro Premium &rarr;"
 
-#: inc/admin/pages/admin.php:636
+#: inc/admin/pages/admin.php:616
 msgid "And many other premium features..."
 msgstr "Y otras muchas características premium..."
 
-#: inc/admin/pages/admin.php:627
+#: inc/admin/pages/admin.php:607
 msgid "Upgrading to the Premium version, you will get access to 6 Header Styles and 9 Footer Layouts."
 msgstr "Si actualizas a la versión Premium, tendrás acceso a 6 estilos de cabecera y 9 diseños de pie de página."
 
-#: inc/admin/pages/admin.php:624
+#: inc/admin/pages/admin.php:604
 msgid "Multiple Header & Footer Layouts"
 msgstr "Múltiples diseños de cabecera y pie de página"
 
-#: inc/admin/pages/admin.php:589
+#: inc/admin/pages/admin.php:569
 msgid "No more custom CSS! The Premium version gives you access to numerous customization options, and you can change the theme's color and font styles of each element."
 msgstr "¡Se acabó el CSS personalizado! La versión Premium te da acceso a numerosas opciones de personalización, y puedes cambiar el color del tema y los estilos de fuente de cada elemento."
 
-#: inc/admin/pages/admin.php:587
+#: inc/admin/pages/admin.php:567
 msgid "Customize Every Detail"
 msgstr "Personaliza cada detalle"
 
-#: inc/admin/pages/admin.php:558
+#: inc/admin/pages/admin.php:538
 msgid "Using the Theme Options panel, you can configure different features and functionalities in the theme as you want. Additional customization options are available in the Customizer, while different options for features like Portfolio can be found on the Theme Options page."
 msgstr "Utilizando el panel de Opciones del tema, puedes configurar diferentes características y funcionalidades en el tema como desees. Las opciones de personalización adicionales están disponibles en el Personalizador, mientras que las diferentes opciones para características como el porfolio se pueden encontrar en la página Opciones del tema."
 
-#: inc/admin/pages/admin.php:556
+#: inc/admin/pages/admin.php:536
 msgid "Theme Options Panel"
 msgstr "Panel de opciones del tema"
 
-#: inc/admin/pages/admin.php:533
+#: inc/admin/pages/admin.php:513
 msgid "Inspiro PRO Demos &rarr;"
 msgstr "Demos de Inspiro PRO &rarr;"
 
-#: inc/admin/pages/admin.php:523
+#: inc/admin/pages/admin.php:503
 msgid "With the built-in demo importer, you can quickly import fully configured demos to help you get started. The theme includes beautiful demos to create a business or portfolio website."
 msgstr "Con el importador de demos incorporado, puedes importar rápidamente demos totalmente configuradas para ayudarte a empezar. El tema incluye bonitas demos para crear una web empresarial o de porfolio."
 
-#: inc/admin/pages/admin.php:521
+#: inc/admin/pages/admin.php:501
 msgid "15+ Starter Sites"
 msgstr "Más de 15 sitios de inicio"
 
-#: inc/admin/pages/admin.php:507
+#: inc/admin/pages/admin.php:487
 msgid "The Premium version will unlock Premium Elementor Modules such as Portfolio Showcase, Slideshow widget, and more!"
 msgstr "La versión Premium desbloqueará módulos premium para Elementor como Portfolio Showcase, Slideshow widget, ¡y mucho más!"
 
-#: inc/admin/pages/admin.php:504
+#: inc/admin/pages/admin.php:484
 msgid "Custom Elementor Modules"
 msgstr "Módulos personalizados para Elementor"
 
-#: inc/admin/pages/admin.php:458
+#: inc/admin/pages/admin.php:438
 msgid "Premium Portfolio Demo &rarr;"
 msgstr "Demo de porfolio premium &rarr;"
 
-#: inc/admin/pages/admin.php:456
+#: inc/admin/pages/admin.php:436
 msgid "https://demo.wpzoom.com/inspiro/portfolio/"
 msgstr "https://demo.wpzoom.com/inspiro/portfolio/"
 
-#: inc/admin/pages/admin.php:453
+#: inc/admin/pages/admin.php:433
 msgid "Inspiro Premium is perfect for showing off your portfolio, images and videos. The premium version includes multiple page templates to display your Portfolio posts and a custom Elementor Portfolio widget. You also get access to features such as Video Lightbox, Video Background on Hover, and more!"
 msgstr "Inspiro Premium es perfecto para mostrar tu porfolio, imágenes y vídeos. La versión Premium incluye múltiples plantillas de página para mostrar tus entradas de porfolio y un widget personalizado de portfolio para Elementor. También tendrás acceso a funciones como la caja de luz para vídeo, fondo de video al pasar por encima, ¡y mucho más!"
 
-#: inc/admin/pages/admin.php:450
+#: inc/admin/pages/admin.php:430
 msgid "Advanced Portfolio with Video Integration"
 msgstr "Porfolio avanzado con integración de video"
 
-#: inc/admin/pages/admin.php:429
+#: inc/admin/pages/admin.php:409
 msgid "In the free version, you can have just a static hero on the homepage, while in the Premium version, you can create a fully working slideshow with multiple videos and images. The Slideshow of the Premium version provides more options and features, such as displaying a different video on mobile devices, adding a video popup, and more."
 msgstr "En la versión gratuita, puedes tener sólo un hero estático en la página de inicio, mientras que en la versión Premium, puedes crear una presentación de diapositivas completamente funcional con múltiples vídeos e imágenes. El pase de diapositivas de la versión Premium ofrece más opciones y funciones, como mostrar un vídeo diferente en dispositivos móviles, añadir una ventana emergente de vídeo y mucho más."
 
-#: inc/admin/pages/admin.php:405
+#: inc/admin/pages/admin.php:385
 msgid "Premium Features"
 msgstr "Características premium"
 
-#: inc/admin/pages/admin.php:371
+#: inc/admin/pages/admin.php:351
 msgid "Typography Options &rarr;"
 msgstr "Opciones de tipografía &rarr;"
 
-#: inc/admin/pages/admin.php:366
+#: inc/admin/pages/admin.php:346
 msgid "Customize Colors &rarr;"
 msgstr "Personalizar colores &rarr;"
 
-#: inc/admin/pages/admin.php:359
+#: inc/admin/pages/admin.php:339
 msgid "Set up your global colors and fonts to match your site with your brand."
 msgstr "Configura tus colores globales y da estilo a tu sitio para que se ajuste a tu marca."
 
-#: inc/admin/pages/admin.php:356
+#: inc/admin/pages/admin.php:336
 msgid "Colors & Fonts"
 msgstr "Colores y fuentes"
 
-#: inc/admin/pages/admin.php:335
+#: inc/admin/pages/admin.php:315
 msgid "Footer Options &rarr;"
 msgstr "Opciones de pie de página &rarr;"
 
-#: inc/admin/pages/admin.php:330
+#: inc/admin/pages/admin.php:310
 msgid "Header Options &rarr;"
 msgstr "Opciones de cabecera &rarr;"
 
-#: inc/admin/pages/admin.php:323
+#: inc/admin/pages/admin.php:303
 msgid "In the Customizer, you will find separate sections to configure theme's Header and Footer. You can also add widgets in the Footer in the Widgets section in the Customizer."
 msgstr "En el Personalizador, encontrarás secciones separadas para configurar la cabecera y el pie de págin del tema. También puedes añadir widgets en el pie de página en la sección Widgets del Personalizador."
 
-#: inc/admin/pages/admin.php:320
+#: inc/admin/pages/admin.php:300
 msgid "Header & Footer"
 msgstr "Cabecera y pie de página"
 
-#: inc/admin/pages/admin.php:299 inc/admin/pages/demo.php:128
+#: inc/admin/pages/demo.php:133
 msgid "How it works? &rarr;"
 msgstr "¿Cómo funciona? &rarr;"
 
-#: inc/admin/pages/admin.php:294 inc/admin/pages/demo.php:124
-msgid "Install One Click Demo Import &rarr;"
-msgstr "Instalar One Click Demo Import &rarr;"
-
-#: inc/admin/pages/admin.php:289
-msgid "Please install the One Click Demo Import plugin to use this feature."
-msgstr "Por favor, instala el plugin One Click Demo Import para utilizar esta característica."
-
-#: inc/admin/pages/admin.php:281
+#: inc/admin/pages/admin.php:280
 msgid "How it works?"
 msgstr "¿Cómo funciona?"
 
-#: inc/admin/pages/admin.php:279 inc/admin/pages/admin.php:297
-#: inc/admin/pages/demo.php:127
+#: inc/admin/pages/admin.php:278 inc/admin/pages/demo.php:130
 msgid "https://www.wpzoom.com/documentation/inspiro-lite/inspiro-lite-importing-the-demo-content/"
 msgstr "https://www.wpzoom.com/documentation/inspiro-lite/inspiro-lite-importing-the-demo-content/"
 
@@ -812,7 +799,7 @@ msgstr "Gracias por instalar la versión gratuita de nuestro tema. A continuaci�
 msgid "Welcome to Inspiro!"
 msgstr "¡Te damos la bienvenida a Inspiro!"
 
-#: inc/admin/pages/admin.php:63 inc/admin/pages/demo.php:55
+#: inc/admin/pages/admin.php:63 inc/admin/pages/demo.php:53
 msgid "Premium Demos"
 msgstr "Demos premium"
 
@@ -965,7 +952,7 @@ msgstr "Suscríbete a consejos y trucos"
 msgid "Homepage (Without Hero Area)"
 msgstr "Página de inicio (sin área a pantalla completa)"
 
-#: inc/admin/pages/admin.php:438
+#: inc/admin/pages/admin.php:418
 msgid "View Demo &rarr;"
 msgstr "Ver la demostración &rarr;"
 
@@ -1007,7 +994,7 @@ msgstr "«Mejor película»"
 msgid "Importing demo data (post, pages, images, etc.) is the quickest and easiest way to set up your new theme, and it allows you to simply edit everything instead of creating content and layouts from scratch."
 msgstr "Importar los datos de la demostración (entradas, páginas, imágenes, etc.) es la forma más rápida y sencilla de configurar tu nuevo tema y te permite simplemente editar todo, en lugar de crear contenido y diseños desde cero."
 
-#: inc/admin/pages/admin.php:276
+#: inc/admin/pages/admin.php:275
 msgid "Import the Demo Content &rarr;"
 msgstr "Importar el contenido de ejemplo &rarr;"
 
@@ -1015,11 +1002,11 @@ msgstr "Importar el contenido de ejemplo &rarr;"
 msgid "Show Search Icon"
 msgstr "Mostrar el icono de búsqueda"
 
-#: inc/admin/pages/demo.php:73
+#: inc/admin/pages/demo.php:71
 msgid "Importing demo data (post, pages, images, theme settings, etc.) is the quickest and easiest way to set up your new theme. It allows you to simply edit everything instead of creating content and layouts from scratch."
 msgstr "Importar los datos de la demostración (entradas, páginas, imágenes, ajustes del tema, etc.) es la forma más rápida y sencilla de configurar tu nuevo tema. Te permite simplemente editar todo, en lugar de crear contenido y diseños desde cero."
 
-#: inc/admin/pages/admin.php:690
+#: inc/admin/pages/admin.php:670
 msgid "Elementor Integration"
 msgstr "Integración de Elementor"
 
@@ -1459,84 +1446,84 @@ msgstr "No tienes los permisos necesarios para realizar esta acción."
 msgid "Action failed. Please refresh the page and retry."
 msgstr "Error en la acción. Por favor, recarga la página y vuelve a intentarlo."
 
-#: inc/admin/pages/admin.php:777
+#: inc/admin/pages/admin.php:757
 msgid "Support"
 msgstr "Soporte"
 
-#: inc/admin/pages/admin.php:772
+#: inc/admin/pages/admin.php:752
 msgid "Typography Options"
 msgstr "Opciones de tipografía"
 
-#: inc/admin/pages/admin.php:761
+#: inc/admin/pages/admin.php:741
 msgid "Theme Options"
 msgstr "Opciones del Tema"
 
-#: inc/admin/pages/admin.php:749
+#: inc/admin/pages/admin.php:729
 msgid "Video & Image Lightbox for Portfolio Posts"
 msgstr "Caja de luz para vídeos e imágenes para las entradas del porfolio"
 
-#: inc/admin/pages/admin.php:742
+#: inc/admin/pages/admin.php:722
 msgid "Video Headers in Pages & Posts"
 msgstr "Cabeceras de vídeo en páginas y entradas"
 
-#: inc/admin/pages/admin.php:730
+#: inc/admin/pages/admin.php:710
 msgid "Video Backgrounds"
 msgstr "Fondos de vídeo"
 
-#: inc/admin/pages/admin.php:725
+#: inc/admin/pages/admin.php:705
 msgid "Predefined Style Kits"
 msgstr "Kits de estilo predefinidos"
 
-#: inc/admin/pages/admin.php:720
+#: inc/admin/pages/admin.php:700
 msgid "Video Features"
 msgstr "Características de vídeo"
 
-#: inc/admin/pages/admin.php:702
+#: inc/admin/pages/admin.php:682
 msgid "Demo Content Importer"
 msgstr "Contenido actualizado correctamente"
 
-#: inc/admin/pages/admin.php:684
+#: inc/admin/pages/admin.php:664
 msgid "Advanced WooCommerce Integration"
 msgstr "Integración avanzada de WooCommerce"
 
-#: inc/admin/pages/admin.php:677
+#: inc/admin/pages/admin.php:657
 msgid "Fullscreen Slideshow on Homepage"
 msgstr "Presentación de diapositivas a pantalla completa en la página de inicio"
 
-#: inc/admin/pages/admin.php:671
+#: inc/admin/pages/admin.php:651
 msgid "Live Customizer"
 msgstr "Personalizador en vivo"
 
-#: inc/admin/pages/admin.php:666
+#: inc/admin/pages/admin.php:646
 msgid "Responsive Layout"
 msgstr "Diseño adaptable"
 
-#: inc/admin-notice.php:80 inc/admin/pages/admin.php:661
+#: inc/admin-notice.php:80 inc/admin/pages/admin.php:641
 #: inc/admin/pages/sidebar.php:33 inc/admin/pages/upgrade.php:133
 msgid "Inspiro Premium"
 msgstr "Inspiro Premium"
 
-#: inc/admin/pages/admin.php:660
+#: inc/admin/pages/admin.php:640
 msgid "Inspiro Lite"
 msgstr "Inspiro Lite"
 
-#: inc/admin/pages/admin.php:659
+#: inc/admin/pages/admin.php:639
 msgid "Feature"
 msgstr "Característica"
 
-#: inc/admin/pages/admin.php:650
+#: inc/admin/pages/admin.php:630
 msgid "Inspiro Lite vs. Inspiro Premium"
 msgstr "Inspiro Lite vs. Inspiro Premium"
 
-#: inc/admin/pages/admin.php:528
+#: inc/admin/pages/admin.php:508
 msgid "Inspiro Premium Demos &rarr;"
 msgstr "Demos de Inspiro Premium &rarr;"
 
-#: inc/admin/pages/admin.php:436
+#: inc/admin/pages/admin.php:416
 msgid "https://demo.wpzoom.com/?theme=inspiro-demo"
 msgstr "https://demo.wpzoom.com/?theme=inspiro-demo"
 
-#: inc/admin/pages/admin.php:778
+#: inc/admin/pages/admin.php:758
 msgid "Support Forum"
 msgstr "Foro de soporte"
 
@@ -1544,7 +1531,7 @@ msgstr "Foro de soporte"
 msgid "Documentation"
 msgstr "Documentación"
 
-#: inc/admin/pages/admin.php:87 inc/admin/pages/admin.php:434
+#: inc/admin/pages/admin.php:87 inc/admin/pages/admin.php:414
 msgid "Get Inspiro Premium &rarr;"
 msgstr "Obtener Inspiro Premium &rarr;"
 
@@ -1579,6 +1566,10 @@ msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
 #: inc/classes/class-tgm-plugin-activation.php:3535
 msgid "All installations and activations have been completed."
 msgstr "Todas las instalaciones y activaciones han sido completadas."
+
+#: inc/admin/admin-api.php:56
+msgid "Plugin installed and activated successfully."
+msgstr "Plugin instalado y activado correctamente."
 
 #: inc/classes/class-tgm-plugin-activation.php:3532
 msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
@@ -1844,7 +1835,7 @@ msgid_plural "The following plugins were activated successfully:"
 msgstr[0] "El siguiente plugin se ha activado correctamente:"
 msgstr[1] "Los siguientes plugins se han activado correctamente:"
 
-#: inc/classes/class-tgm-plugin-activation.php:387
+#: inc/admin/admin-api.php:32 inc/classes/class-tgm-plugin-activation.php:387
 #: inc/classes/class-tgm-plugin-activation.php:3181
 msgid "Plugin activated successfully."
 msgstr "Plugin activado correctamente."
