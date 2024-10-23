@@ -8,21 +8,48 @@
  Author URI: uri del programador/a
  */
 
- /*
- Todo esto aparecerá en el panel de
- administración de plugins del dashboard
- */
+ function randomDestinos() {
+     $destinos = array(
+         "Santiago, Cuba",
+         "Tokio, Japón",
+         "San Juan, Puerto Rico",
+         "Nueva York, EE.UU.",
+         "Bali, Indonesia",
+     );
+     
+     $destino_r = $destinos[array_rand($destinos)];
+     
+     echo "<h2>Destino: $destino_r</h2>";
+ }
+ 
 
- function lux(){
-    echo "Van dos por tres calles y se cae el de enmedio";
+ function lux_instala(){
+   
+ }
+ 
+
+ function lux_desinstala(){
+    
+ }
+ 
+ 
+ add_action('activate_lux/lux.php', 'lux_instala');
+ add_action('deactivate_lux/lux.php', 'lux_desinstala');
+ 
+
+ function lux_panel(){
+     include('template/panel.html');
+     echo "<h2>Página de configuración de Lux</h2>";
+ }
+ 
+
+ function lux_add_menu(){
+    if (function_exists('add_menu_page')) {
+        add_menu_page('Lux', 'Lux', 'manage_options', 'lux', 'lux_panel', '', 6);
     }
-
-    function lux_instala(){
-        // Por ahora, la dejamos vacía
-        }
-        function lux_desinstala(){
-        // Por ahora, la dejamos vacía
-        }
-        add_action('activate_lux/lux.php','lux_instala');
-        add_action('deactivate_lux/lux.php', 'lux_desinstala');
-?>
+}
+ 
+ add_action('admin_menu', 'lux_add_menu');
+ 
+ ?>
+ 
