@@ -9,5 +9,23 @@
  */
 
  body{
-    background-color:aqua ;
+    background-color:rgb(255, 250, 230) ;
+    margin: 0px;
  }
+
+ /* header h1{
+   text-align: center;
+   color:rgb(8, 8, 68);
+ }
+ header h1 a{
+   text-decoration: none;
+ }
+ header h1 a:visited{
+   color:rgb(8, 8, 68);
+ } */
+ /***AQUI TODOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+header{
+   background-image: url(../../uploads/2024/10/logo.png);
+   width: 100%;
+   padding: 105px;
+ } 

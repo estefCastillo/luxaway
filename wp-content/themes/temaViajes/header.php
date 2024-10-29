@@ -9,12 +9,16 @@
 ?>/favicon.ico" />
 <link rel="stylesheet" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
  <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+ <link rel="stylesheet " href="<?php echo get_stylesheet_directory_uri();
+?>/favicon.ico" />
+<link rel="stylesheet" href="style.css">
  <?php wp_head(); ?>
  </head>
  <body>
  <div class="wrapper">
- <header>
- <h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
- <hr>
+ <a href="index.php"><header>
+ <!-- <h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>  -->
+
+
  <?php wp_nav_menu( array('menu' => 'Main', 'container' => 'nav' )); ?>
- </header>
+ </header></a>
