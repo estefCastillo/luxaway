@@ -4,7 +4,7 @@
  <?php get_sidebar()?>
  <?php get_footer(); ?>
  
- <?php $post = $posts[0]; ?>
+
  <?php if (is_category()) { ?>
  <h2>Categoría: <?php get_the_category(); ?></h2>
  <?php } elseif( is_tag() ) { ?>
@@ -24,5 +24,4 @@ the_author_posts_link() ?> </small>
  </div>
  <?php the_excerpt(); ?>
  <?php endwhile; else: ?>
- <p><?php _e('No hay entradas .'); ?></p>
  <?php endif; ?>

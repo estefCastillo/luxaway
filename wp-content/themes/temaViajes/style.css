@@ -9,7 +9,7 @@
  */
 
  body{
-    background-color:rgb(255, 250, 230) ;
+    background-color: black;
     margin: 0px;
  }
 
@@ -29,3 +29,69 @@ header{
    width: 100%;
    padding: 105px;
  } 
+
+ footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+ }
+
+ button{
+  margin-left: 45%;
+  background-color: aqua;
+  border-radius: 40px;
+  color: white;
+  border: none;
+  padding: 20px;
+  text-transform: uppercase;
+  margin-top: 2%;
+ }
+ button:hover{
+  background-color: white;
+  color: aqua;
+  cursor: pointer;
+ }
+
+ h2{
+  margin-top: 3%;
+  text-align: center;
+  color: white;
+ }
+
+ /*
+ imagenes para hacer display flex*/
+ .imagenes{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+ }
+ .imagenes img:nth-child(1){
+  background-image: url(../../uploads/2024/10/kubio-image-28.png);
+  width: 100%;
+  padding: 200px;
+  background-position: center;
+ }
+
+ .imagenes img:nth-child(2){
+  background-image: url(../../uploads/2024/10/kubio-image-32.png);
+  width: 100%;
+  padding: 200px;
+  background-position: center;
+ }
+ .imagenes img:nth-child(3){
+  background-image: url(../../uploads/2024/10/kubio-image-28.png);
+  width: 100%;
+  padding: 200px;
+  background-position: center;
+ }
+
+ .imagenes article h2{
+  color: white;
+  text-align: center;
+ }
+ .imagenes article p{
+  color: white;
+  text-align:center;
+ }
