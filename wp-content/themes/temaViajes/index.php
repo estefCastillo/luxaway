@@ -11,7 +11,7 @@
  <h2>Etiqueta: <?php single_tag_title(); ?></h2>
  <?php } ?>
 
- <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+ <!-- <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
  <small>Publicado el <?php the_time('j/m/Y') ?> por <?php
 the_author_posts_link() ?> </small>
@@ -24,4 +24,4 @@ the_author_posts_link() ?> </small>
  </div>
  <?php the_excerpt(); ?>
  <?php endwhile; else: ?>
- <?php endif; ?>
+ <?php endif; ?> -->

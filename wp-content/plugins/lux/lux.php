@@ -9,19 +9,19 @@
  */
 
  function randomDestinos() {
-     $destinos = array(
-         "Santiago, Cuba",
-         "Tokio, Japón",
-         "San Juan, Puerto Rico",
-         "Nueva York, EE.UU.",
-         "Bali, Indonesia",
-     );
-     
-     $destino_r = $destinos[array_rand($destinos)];
-     
-     echo "<h2>Destino: $destino_r</h2>";
- }
- 
+    $destinos = array(
+        "Santiago, Cuba",
+        "Tokio, Japón",
+        "San Juan, Puerto Rico",
+        "Nueva York, EE.UU.",
+        "Bali, Indonesia",
+    );
+
+    $destino_r = $destinos[array_rand($destinos)];
+    
+    echo "<h2>Puede que tu próximo destino sea: $destino_r</h2>";
+    echo '<form method="post"><button type="submit" name="nuevo_destino">Nuevo Destino</button></form>';
+}
 
  function lux_instala(){
     global $wpdb;
@@ -65,7 +65,12 @@
      global $wpdb;
      $table_name = $wpdb->prefix . "destinos";
 
-
+     if (isset($_POST['nuevo_destino'])) {
+        randomDestinos();
+    } else {
+        randomDestinos();
+    }
+    
      if (isset($_POST['lux'])) {
          $destino = sanitize_text_field($_POST['lux']); 
          

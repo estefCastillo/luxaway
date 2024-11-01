@@ -8,22 +8,16 @@ the_search_query(); ?>" name="s" id="s" />
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Main Sidebar') )
 : ?>
  <?php endif; ?>
- <button>Viaja con nosotros</button>
- <h2>Hacemos lo que amamos</h2>
- <article class="imagenes">
+
+ <h2>El mundo te espera, ¿qué estás esperando?</h2>
+ <?php randomDestinos(); ?>
+
+<section id="imagenes">
+<article class="imagenes">
     <img src="" alt="">
     <img src="" alt="">
     <img src="" alt="">
-    <article>
-        <h2>Puerto Rico</h2>
-        <p>Un gran lugar</p>
-    </article>
-    <article>
-        <h2>Malasia</h2>
-    </article>
-    <article>
-        <h2>Japón</h2>
-    </article>
  </article>
+</section>
  <p></p>
 </section>

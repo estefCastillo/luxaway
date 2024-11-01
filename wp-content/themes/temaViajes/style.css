@@ -1,97 +1,160 @@
-/*
- Theme Name: Mitema
- Theme URI: el lugar donde vayas a alojar el tema
- para ponerlo a disposición de la comunidad
- Description: La descripción del tema
- Author: Tu nombre y apellidos
- Author URI: la web profesional del creador del tema
- Version: 1.0
- */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAF5EE;
+  padding-top: 200px;
+}
 
- body{
-    background-color: black;
-    margin: 0px;
- }
+header {
+  background-image: url(../../uploads/2024/10/b.png);
+  background-size: cover; 
+  background-position: center; 
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  z-index: 1000; 
+  padding: 0; 
+}
 
- /* header h1{
-   text-align: center;
-   color:rgb(8, 8, 68);
- }
- header h1 a{
-   text-decoration: none;
- }
- header h1 a:visited{
-   color:rgb(8, 8, 68);
- } */
- /***AQUI TODOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
-header{
-   background-image: url(../../uploads/2024/10/logo.png);
-   width: 100%;
-   padding: 105px;
- } 
+header nav.menu {
+  float: right;
+  width: 60%;
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  right: 5rem;
+  transform: translateY(-50%);
+}
 
- footer{
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding: 20px;
- }
+header nav.menu ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+}
 
- button{
-  margin-left: 45%;
-  background-color: aqua;
+header nav.menu ul li {
+  display: inline-block; 
+  margin-left: 1rem;
+}
+
+header nav.menu a {
+  font-family: 'Merriweather', serif;
+  color: #007A74; 
+  font-size: 1rem; 
+  padding: 0.5rem; 
+  border: 2px solid #007A74; 
+  border-radius: 2rem; 
+  text-decoration: none; 
+  transition: 0.3s;
+}
+
+header nav.menu a:hover {
+  background-color: #007A74;
+  border: 2px solid #FAF5EE;
+  color: #FAF5EE;
+}
+button {
+  display: block; 
+  margin: 0 auto; 
+  background-color: #007A74;
   border-radius: 40px;
   color: white;
   border: none;
-  padding: 20px;
-  text-transform: uppercase;
-  margin-top: 2%;
- }
- button:hover{
-  background-color: white;
-  color: aqua;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #007A74;
+  border: 2px solid #FAF5EE;
+  color: #FAF5EE;
   cursor: pointer;
- }
+}
 
  h2{
-  margin-top: 3%;
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  color: white;
+  color: #007A74;  
  }
-
- /*
- imagenes para hacer display flex*/
- .imagenes{
+ section #imagenes{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  margin-top: 8px;
+}
+ article .imagenes{
   display: grid;
+  grid-template-columns: repeat(3, 200px); 
+  gap: 20px; 
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
  }
  .imagenes img:nth-child(1){
   background-image: url(../../uploads/2024/10/kubio-image-28.png);
-  width: 100%;
-  padding: 200px;
+  padding: 130px;
   background-position: center;
  }
 
- .imagenes img:nth-child(2){
-  background-image: url(../../uploads/2024/10/kubio-image-32.png);
-  width: 100%;
-  padding: 200px;
+  .imagenes img:nth-child(2){
+  background-image: url(../../uploads/2024/10/dos.jpg);
+  padding: 130px;
   background-position: center;
  }
- .imagenes img:nth-child(3){
-  background-image: url(../../uploads/2024/10/kubio-image-28.png);
-  width: 100%;
-  padding: 200px;
+  .imagenes img:nth-child(3){
+  background-image: url(../../uploads/2024/09/1-1.jpg);
+  padding: 130px;
   background-position: center;
  }
+ .imagenes img {
+  transition: transform 0.3s; 
+}
 
- .imagenes article h2{
-  color: white;
+.imagenes img:hover {
+  transform: scale(1.5); 
+}
+
+ footer{
+ font-family: 'Merriweather', serif; 
   text-align: center;
+  background-color: #007A74;
+  color:#FAF5EE;
+  padding: 20px;
+  margin: 0px;
+  position: fixed; 
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
  }
- .imagenes article p{
-  color: white;
-  text-align:center;
- }
+
+#main{
+  padding-top: 0px;
+  display: block;
+  margin: 0 auto; 
+}
+#single {
+  background-color: #FAF5EE;
+  padding: 15px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+
+.post-title {
+  font-family: 'Montecarlo', serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.post-title a {
+  color: #D4AF37; 
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  color: #BDAA2D; 
+}
+
+.post {
+  font-family: 'Merriweather', serif;
+  color: #007A74; /* Color del contenido de la entrada */
+}

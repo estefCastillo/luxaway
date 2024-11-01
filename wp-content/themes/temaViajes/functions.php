@@ -33,4 +33,14 @@ function my_sidebar_setup() {
     }
 }
 add_action('widgets_init', 'my_sidebar_setup');
+
+function mi_tema_scripts() {
+    wp_enqueue_style('mi-estilo-principal', get_stylesheet_uri());
+}
+
+add_action('wp_enqueue_scripts', 'mi_tema_scripts');
+
+function should_display_sidebar() {
+    return !is_single();
+}
 ?>
