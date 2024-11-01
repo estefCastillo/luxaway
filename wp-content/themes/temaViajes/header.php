@@ -22,9 +22,9 @@
       <?php wp_nav_menu(array('menu' => 'Main', 'container' => 'nav')); ?>
       <nav class="menu">
       <ul>
-         <li><a href="header.phps">Inicio</a></li>
-         <li><a href="#viaja">Viaja</a></li>
+         <li><a href="<?php echo home_url(); ?>">Inicio</a></li>
          <li><a href="<?php echo get_permalink(get_page_by_title('Sobre Nosotros')); ?>">Sobre Nosotros</a></li>
+         <li><a href="<?php echo get_permalink(get_page_by_title('Viaja')); ?>">Viaja</a></li>
       </ul>
       </ul>
    </nav>

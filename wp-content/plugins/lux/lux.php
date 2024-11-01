@@ -1,23 +1,18 @@
 <?php
  /*
  Plugin Name: Lux
- Plugin URI: uri oficial del desarrollador/a del plugin
- Description: qué hace el plugin
- Version: numero de versión
- Author: Nombre del programador/a
- Author URI: uri del programador/a
+ Plugin URI: Estefany/Agustín
+ Description: Devuelve un destino aleatorio y permite a los editores, añadir un nuevo destino
+ Version: 1.0
+ Author: Estefany/Agustín
+ Author URI: Estefany/Agustín
  */
 
  function randomDestinos() {
-    $destinos = array(
-        "Santiago, Cuba",
-        "Tokio, Japón",
-        "San Juan, Puerto Rico",
-        "Nueva York, EE.UU.",
-        "Bali, Indonesia",
-    );
+    global $wpdb;
+    $table_name = $wpdb->prefix . "destinos"; 
 
-    $destino_r = $destinos[array_rand($destinos)];
+    $destino_r = $wpdb->get_var("SELECT destino FROM $table_name ORDER BY RAND() LIMIT 1");
     
     echo "<h2>Puede que tu próximo destino sea: $destino_r</h2>";
     echo '<form method="post"><button type="submit" name="nuevo_destino">Nuevo Destino</button></form>';
@@ -27,7 +22,7 @@
     global $wpdb;
     $table_name = $wpdb->prefix . "destinos"; 
    
-    $sql = "CREATE TABLE $table_name (
+    $sql = "CREATE TABLE IF NOT EXISTS $table_name (
         id INT(11) NOT NULL AUTO_INCREMENT,
         destino TEXT NOT NULL,
         PRIMARY KEY (id)

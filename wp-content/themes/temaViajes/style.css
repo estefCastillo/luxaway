@@ -126,7 +126,7 @@ button:hover {
   bottom: 0; 
   width: 100%; 
  }
-
+/*Post*/
 #main{
   padding-top: 0px;
   display: block;
@@ -156,5 +156,67 @@ button:hover {
 
 .post {
   font-family: 'Merriweather', serif;
-  color: #007A74; /* Color del contenido de la entrada */
+  color: #007A74; 
+}
+
+.content {
+  font-family: 'Merriweather', serif;
+  color: #007A74; 
+  text-align: center;
+}
+
+.content h1{
+  font-family: 'Montecarlo', serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #D4AF37;
+  text-align: center;
+}
+.search{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+#searchform {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+#searchform input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 40px;
+  width: 150px;
+  margin-right: 5px; 
+}
+
+#searchform button {
+  padding: 10px 15px; 
+  background-color: #007A74; 
+  color: #FAF5EE;
+  border: none; 
+  border-radius: 40px;
+  cursor: pointer; 
+}
+
+#searchform button:hover {
+  background-color: #FAF5EE; 
+  color: #007A74;
+  border: 2px solid #007A74;
+}
+
+#main a{
+  color: #D4AF37; 
+  text-decoration: none;
+}
+#main a:visited{
+  color: #D4AF37; 
+}
+#main a:hover{
+  color: #BDAA2D; 
+}
+#main p{
+  color: #007A74;
 }
