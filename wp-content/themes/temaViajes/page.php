@@ -1,6 +1,7 @@
 <?php
 get_header(); 
 ?>
+<div class="page">
 
 <div class="content">
     <?php
@@ -11,6 +12,12 @@ get_header();
         endwhile;
     endif;
     ?>
+</div>
+<div class="sidebar">
+<?php
+get_sidebar(); 
+?>
+</div>
 </div>
 
 <?php
